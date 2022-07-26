@@ -1,0 +1,119 @@
+@media (max-width: 991.5px) {
+    .container {
+        min-width:90%;
+    }
+    .benefits {
+        &__wrapper {
+            display: block;
+        }
+        &__item {
+            margin-top: 40px;
+        }
+    }
+    
+}
+
+@media (max-width: 767.5px) {
+    .container {
+        min-width:100%;
+    }
+    .header {
+        flex-direction: column;
+        &__official {
+            margin-top: 10px;
+        }
+        &__contacts {
+            text-align: center;
+            a {
+                display: block;
+                margin: 0 auto;
+                padding-bottom: 10px;
+            }
+        }  
+    }    
+    .promo {
+        &__wrapper {
+            margin-top: 45px;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .benefits {
+        &__wrapper {
+            display: block;
+        }
+        &__item {
+            margin-top: 40px;
+        }
+    }
+    .consultation {
+        min-height: 550px;
+        padding: 15px;
+        h2 {
+            font-size: 30px;
+            text-align: center;
+            line-height: 40px;
+        }
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 15px auto;
+    }
+}
+
+@media (max-width: 575.5px) {
+    .container {
+        min-width:100%;
+    }
+    .promo {
+        &__header {
+            display: block;
+            margin: 0 auto;
+            font-size: 22px;
+            text-align: center;
+            width: 260px;
+        }
+        &__subheader {
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+            font-size: 15px;
+            text-align: center;
+            width: 300px;
+
+        }
+        &__icons {
+            flex-direction: column;
+            width: 100px;
+            margin-top: 15px;
+        }
+        &__icon {
+            margin-top: 40px;
+        }
+    }
+    .button {
+        width: 200px;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 27px;
+    }
+    .consultation {
+        h2 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+        &__descr {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .feed-form {
+        width: 260px;
+        align-items: center;
+    }
+
+}
