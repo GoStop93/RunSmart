@@ -44,6 +44,10 @@
         justify-content: center;
         margin-top: 57px;
         flex-wrap: wrap;
+        display: none;
+        &_active {
+            display: flex;
+        }
     }
 
     &-item {
@@ -86,6 +90,7 @@
             font-size: 14px;
             line-height: 14px;
             text-decoration-line: underline;
+            text-transform: uppercase;
             color: $main-color;
         }
         hr {
